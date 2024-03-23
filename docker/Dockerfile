@@ -1,7 +1,7 @@
 ###########################
 #     BASE CONTAINER      #
 ###########################
-FROM node:18-alpine AS base
+FROM node:20.3.1 AS base
 
 ###########################
 #    BUILDER CONTAINER    #
